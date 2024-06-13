@@ -1,0 +1,36 @@
+# Flutter/Dart/Pub related
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+.idea/
+
+# Android
+android/local.properties
+android/app/build/
+
+# iOS
+ios/Runner.build/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+
+# macOS
+macos/Flutter/ephemeral/
+
+# Web
+web/var/
+
+# Linux
+linux/flutter/ephemeral/
+
+# Windows
+windows/flutter/ephemeral/
+
+# Symbolicated stack traces
+.darwin-symbolicated/
+.symbolicate/
+crashlytics/build/
