@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:photo_editor_pro/main.dart';
 import '../../models/FontData.dart';
 import '../../models/StackedWidgetModel.dart';
 import '../../utils/Colors.dart';

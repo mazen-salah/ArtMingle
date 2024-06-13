@@ -9,7 +9,6 @@ import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:image_gallery_saver/image_gallery_saver.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:zoom_widget/zoom_widget.dart';
 import '../../components/AdsComponent.dart';
 import '../../components/BlurSelectorBottomSheet.dart';
 import '../../components/BottomBarItemWidget.dart';

@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:zoom_widget/zoom_widget.dart';
 import '../../models/StackedWidgetModel.dart';
 
 class PositionedTextViewWidget extends StatefulWidget {

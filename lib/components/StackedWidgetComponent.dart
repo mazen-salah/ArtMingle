@@ -1,11 +1,9 @@
 import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:zoom_widget/zoom_widget.dart';
 import '../../models/StackedWidgetModel.dart';
 import '../../utils/Constants.dart';
 
-import '../main.dart';
 import 'PositionedNeonTextWidget.dart';
 import 'PositionedTextViewWidget.dart';
 import 'StackedItemConfigWidget.dart';
