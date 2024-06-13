@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "321835174090",
+    "project_id": "photo-editor-2cf30",
+    "storage_bucket": "photo-editor-2cf30.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:321835174090:android:d4d2f2317e46bab3fd0c33",
+        "android_client_info": {
+          "package_name": "com.mighty.editor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "321835174090-o9gj0us87s9enkj5ddsn5pg3flhfnli5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWrZcjM2mlkFP8wmpm1qsdQc456WKgjLk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "321835174090-o9gj0us87s9enkj5ddsn5pg3flhfnli5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
