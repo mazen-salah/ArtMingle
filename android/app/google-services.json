@@ -1,36 +1,45 @@
 {
   "project_info": {
-    "project_number": "321835174090",
-    "project_id": "photo-editor-2cf30",
-    "storage_bucket": "photo-editor-2cf30.appspot.com"
+    "project_number": "413050647495",
+    "project_id": "artmingle-319b3",
+    "storage_bucket": "artmingle-319b3.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:321835174090:android:d4d2f2317e46bab3fd0c33",
+        "mobilesdk_app_id": "1:413050647495:android:c40347a9388c9b08d51fe2",
         "android_client_info": {
           "package_name": "com.mighty.editor"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "321835174090-o9gj0us87s9enkj5ddsn5pg3flhfnli5.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCWrZcjM2mlkFP8wmpm1qsdQc456WKgjLk"
+          "current_key": "AIzaSyDGsayMYuqXLVQHRwx2AC2NZr0zQlQ19bo"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "321835174090-o9gj0us87s9enkj5ddsn5pg3flhfnli5.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:413050647495:android:77d04bb1b0594b15d51fe2",
+        "android_client_info": {
+          "package_name": "com.summationWorks.artmingle"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGsayMYuqXLVQHRwx2AC2NZr0zQlQ19bo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
         }
       }
     }

@@ -27,13 +27,13 @@ def flutterVersionName = localProperties.getProperty('flutter.versionName') ?: '
 android {
     signingConfigs {
         debug {
-            storeFile file('/home/meet05/Downloads/photo_editor.jks')
+            
         }
         release {
-            storeFile file('/home/meet05/Downloads/photo_editor.jks')
-            storePassword 'photo_editor'
-            keyAlias 'photo_editor'
-            keyPassword 'photo_editor'
+            storeFile file('photo_editor.jks')
+            storePassword 'Mazen5498623'
+            keyAlias 'Mazen5498623'
+            keyPassword 'Mazen5498623'
         }
     }
     compileSdkVersion 34
@@ -53,7 +53,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.mighty.editor"
+        applicationId "com.summationWorks.artmingle"
         minSdkVersion 24
         targetSdkVersion 34
         versionCode flutterVersionCode.toInteger()

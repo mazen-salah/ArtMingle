@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.mighty.editor">
+    package="com.summationWorks.artmingle">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
@@ -22,13 +22,13 @@
         android:fullBackupContent="true"
         android:fullBackupOnly="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="Photo Editor Pro"
+        android:label="ArtMingle"
         android:requestLegacyExternalStorage="true"
         android:usesCleartextTraffic="true"
         android:enableOnBackInvokedCallback="false"
         tools:ignore="UnusedAttribute">
         <activity
-            android:name="com.mighty.editor.MainActivity"
+            android:name="com.summationWorks.artmingle.MainActivity"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
             android:exported="true"
             android:hardwareAccelerated="true"
@@ -59,7 +59,7 @@
 
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-1399327544318575~4715757947" />
+            android:value="ca-app-pub-3433676459697719~4859812849" />
 
         <provider
             android:name="androidx.core.content.FileProvider"
