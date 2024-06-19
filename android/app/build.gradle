@@ -23,22 +23,21 @@ if (localPropertiesFile.exists()) {
 def flutterVersionCode = localProperties.getProperty('flutter.versionCode') ?: '10'
 def flutterVersionName = localProperties.getProperty('flutter.versionName') ?: '3.2.2'
 
-
 android {
+
     signingConfigs {
         debug {
-            
+            // Add debug signing config if needed
         }
         release {
-            storeFile file('photo_editor.jks')
-            storePassword 'Mazen5498623'
-            keyAlias 'Mazen5498623'
-            keyPassword 'Mazen5498623'
+            keyAlias keystoreProperties['keyAlias']
+            keyPassword keystoreProperties['keyPassword']
+            storeFile keystoreProperties['storeFile'] ? file(keystoreProperties['storeFile']) : null
+            storePassword keystoreProperties['storePassword']
         }
     }
     compileSdkVersion 34
     ndkVersion flutter.ndkVersion
-    ndkVersion "25.1.8937393"
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
@@ -59,12 +58,14 @@ android {
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
         multiDexEnabled true
-
     }
 
     buildTypes {
         release {
             signingConfig signingConfigs.release
+            // Enable proguard if needed
+            // minifyEnabled true
+            // proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
 }
@@ -78,4 +79,5 @@ dependencies {
     implementation 'androidx.multidex:multidex:2.0.1'
     implementation platform('com.google.firebase:firebase-bom:26.8.0')
     implementation 'com.google.firebase:firebase-analytics'
+    implementation 'com.google.firebase:firebase-crashlytics'
 }
